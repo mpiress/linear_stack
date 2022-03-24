@@ -21,3 +21,27 @@ Diferente do tipo lista [vide git](https://github.com/mpiress/linear_list), a pi
 <p align="center">
 	<img src="imgs/pilha.png"/> 
 </p>
+
+
+<p align="justify">
+Observe que nesse tipo de estrutura há apenas um <b>único ponteiro</b> chamado <b>Topo</b>. Os métodos associados ao tipo pilha, os quais impõem as regras, são chamados PUSH (i.e., empilhar) e POP (i.e., desempilhar).
+</p>
+
+>Logo, temos como regra básica dessa estrutura: 
+> 1. O último elemento que entra sempre será o primeiro a ser removido. 
+
+<p align="justify">
+Como a pilha também se apoia na construção a partir de um vetor, muitas das caracteristicas de implementação observadas no tipo lista são aproveitados aqui. 
+</p>
+
+
+# Compilação e Execução
+
+A lista linear disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+
+
+| Comando                |  Função                                                                                           |                     
+| -----------------------| ------------------------------------------------------------------------------------------------- |
+|  `make clean`          | Apaga a última compilação realizada contida na pasta build                                        |
+|  `make`                | Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build           |
+|  `make run`            | Executa o programa da pasta build após a realização da compilação                                 |
