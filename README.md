@@ -18,4 +18,6 @@ Diferente do tipo lista [vide git](https://github.com/mpiress/linear_list), a pi
 </p>
 
 
-                  <img align="center" src="imgs/pilha.png"/> 
+<div style="align-content: center;">
+<img src="imgs/pilha.png"/> 
+</div>
