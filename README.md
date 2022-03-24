@@ -31,7 +31,7 @@ Observe que nesse tipo de estrutura há apenas um <b>único ponteiro</b> chamado
 > 1. O último elemento que entra sempre será o primeiro a ser removido. 
 
 <p align="justify">
-Como a pilha também se apoia na construção a partir de um vetor, muitas das caracteristicas de implementação observadas no tipo lista são aproveitados aqui. 
+Como a pilha é definida a partir de um vetor, muitas das caracteristicas de implementação observadas no tipo lista são aproveitados para compor sua execução. A diferença está apenas na composição da regra de manipulação, o que as diferencia em termos de execução. 
 </p>
 
 
