@@ -37,7 +37,7 @@ Como a pilha é definida a partir de um vetor, muitas das caracteristicas de imp
 
 # Compilação e Execução
 
-A lista linear disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+A pilha linear disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
 
 | Comando                |  Função                                                                                           |                     
